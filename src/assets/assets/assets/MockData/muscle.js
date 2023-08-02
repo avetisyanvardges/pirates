@@ -1,0 +1,298 @@
+export const Muscle = [
+  {
+    id: 0,
+    title: 'Biceps',
+    img: require('../../assets/icons/icons/biceps.jpg'),
+    exercises: [
+      {
+        title: 'Bicep curl',
+        img: require('../../assets/images/images/Biceps/curl.webp'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Hammer curl',
+        img: require('../../assets/images/images/Biceps/hammer_curl.webp'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Cable curl',
+        img: require('../../assets/images/images/Biceps/overhead-cable-curl.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Cable rope hammer curl',
+        img: require('../../assets/images/images/Biceps/cable_rope_hammer_curl.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Dumbbell preacher curl',
+        img: require('../../assets/images/images/Biceps/dumbbell_preacher_curl.jpg'),
+        count: 10,
+        selected: false,
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: 'Back',
+    img: require('../../assets/icons/icons/back.jpg'),
+    exercises: [
+      {
+        title: 'Bent-over row',
+        img: require('../../assets/images/images/Back/bent_over_row.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Pull ups',
+        img: require('../../assets/images/images/Back/pull_ups.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Seated cable rows',
+        img: require('../../assets/images/images/Back/seated_cable_row.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Back extension',
+        img: require('../../assets/images/images/Back/back-extension.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'T-bar rows',
+        img: require('../../assets/images/images/Back/t-bar-row.jpg'),
+        count: 10,
+        selected: false,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Chest',
+    img: require('../../assets/icons/icons/chest.webp'),
+    exercises: [
+      {
+        title: 'Push ups',
+        img: require('../../assets/images/images/Chest/push-ups.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Bench press',
+        img: require('../../assets/images/images/Chest/bench-press.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Dumbbell bench press',
+        img: require('../../assets/images/images/Chest/dumbbell-bench-press.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Dumbbell fly',
+        img: require('../../assets/images/images/Chest/dumbbell-fly.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Parallel bar dip',
+        img: require('../../assets/images/images/Chest/parallel-bar-dip.jpg'),
+        count: 10,
+        selected: false,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Quadriceps',
+    img: require('../../assets/icons/icons/quadricep.jpg'),
+    exercises: [
+      {
+        title: 'Squat',
+        img: require('../../assets/images/images/Quadriceps/squat.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Goblet squat',
+        img: require('../../assets/images/images/Quadriceps/dumbbell-goblet-squat.webp'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Step ups',
+        img: require('../../assets/images/images/Quadriceps/step-up.webp'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Weighted sissy squat',
+        img: require('../../assets/images/images/Quadriceps/weighted-sissy-squat.png'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Side lunge',
+        img: require('../../assets/images/images/Quadriceps/side-lunge.jpg'),
+        count: 10,
+        selected: false,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: 'Calf',
+    img: require('../../assets/icons/icons/calf.jpg'),
+    exercises: [
+      {
+        title: 'Calf press',
+        img: require('../../assets/images/images/Calf/Calf-Press.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Machine calf raise',
+        img: require('../../assets/images/images/Calf/machine-calf-raise.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Seated calf raise',
+        img: require('../../assets/images/images/Calf/seated-calf-raise.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Single leg seated calf raise',
+        img: require('../../assets/images/images/Calf/single-leg-seated-calf-raise.jpg'),
+        count: 10,
+        selected: false,
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: 'Shoulders',
+    img: require('../../assets/icons/icons/shoulder.jpg'),
+    exercises: [
+      {
+        title: 'Lateral raise',
+        img: require('../../assets/images/images/Shoulders/dumbbell-lateral-raise.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Arnold press',
+        img: require('../../assets/images/images/Shoulders/arnold-press.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Seated military shoulder press',
+        img: require('../../assets/images/images/Shoulders/Seated-military-shoulder-press.png'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'External rotation',
+        img: require('../../assets/images/images/Shoulders/dumbbell-external-rotation.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Machine lateral raise',
+        img: require('../../assets/images/images/Shoulders/machine-lateral-raise.jpg'),
+        count: 10,
+        selected: false,
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: 'Triceps',
+    img: require('../../assets/icons/icons/triceps.jpg'),
+    exercises: [
+      {
+        title: 'Diamond push ups',
+        img: require('../../assets/images/images/Triceps/diamond-push-ups.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Dumbbell triceps extensions',
+        img: require('../../assets/images/images/Triceps/dumbbell-tricep-extension.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Lying dumbbell triceps',
+        img: require('../../assets/images/images/Triceps/lying-dumbbell-tricep.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Lying triceps extension',
+        img: require('../../assets/images/images/Triceps/lying-tricep-extension.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Seated dumbbell triceps extension',
+        img: require('../../assets/images/images/Triceps/seated-dumbbell-tricep-extension.jpg'),
+        count: 10,
+        selected: false,
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: 'ABS',
+    img: require('../../assets/icons/icons/abs.webp'),
+    exercises: [
+      {
+        title: 'Crunches',
+        img: require('../../assets/images/images/ABS/crunches.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Bicycle crunch',
+        img: require('../../assets/images/images/ABS/bicycle-crunch.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Cable crunch',
+        img: require('../../assets/images/images/ABS/cable-crunch.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Decline crunch',
+        img: require('../../assets/images/images/ABS/decline-crunch.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Reverse crunches',
+        img: require('../../assets/images/images/ABS/reverse-crunches.jpg'),
+        count: 10,
+        selected: false,
+      },
+      {
+        title: 'Machine seated crunch',
+        img: require('../../assets/images/images/ABS/machine-seated-crunch.jpg'),
+        count: 10,
+        selected: false,
+      },
+    ],
+  },
+];
